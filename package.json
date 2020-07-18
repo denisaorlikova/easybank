@@ -1,0 +1,22 @@
+{
+  "name": "easybank",
+  "version": "1.0.0",
+  "description": "![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisaorlikova/easybank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisaorlikova/easybank/issues"
+  },
+  "homepage": "https://github.com/denisaorlikova/easybank#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
