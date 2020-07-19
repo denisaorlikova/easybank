@@ -1,4 +1,4 @@
-// Custom Variables
+// Customize Variables
 
 $theme-colors: (
   "primary": #33D35E,
@@ -14,8 +14,39 @@ $h2-font-size:                $font-size-base * 2.22;
 $h3-font-size:                $font-size-base * 1.33;
 $h4-font-size:                $font-size-base * 0.89;
 
-$border-radius:               22px;
+$btn-border-radius:           22px;
 
-//Include all of Bootstrap
+// Include all of Bootstrap
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+// Custom.scss
+
+.nav-link {
+  font-size: 0.875rem;
+}
+
+.btn-primary {
+  font-size: 0.875rem;
+  height: 44px;
+  width: 163px;
+  background-image: linear-gradient(to bottom right, #33D35E, #2AB6D9);
+}
+
+.jumbotron {
+  background-image: url("images/bg-intro-desktop.svg");
+  background-blend-mode: normal;
+  background-repeat: no-repeat;
+  background-position: 350% 80%;
+  background-attachment: fixed;
+}
+
+.jumbotron h1 {
+  padding-top: 15rem;
+  padding-bottom: 1.5rem;
+}
+
+.jumbotron p {
+  color: #9597A5;
+  padding-bottom: 2.25;
+}
