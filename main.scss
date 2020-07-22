@@ -9,12 +9,11 @@ $font-family-sans-serif: 'Public Sans', sans-serif;
 
 $font-size-base:              1.125rem;
 
-$h1-font-size:                $font-size-base * 3.11;
-$h2-font-size:                $font-size-base * 2.22;
-$h3-font-size:                $font-size-base * 1.33;
-$h4-font-size:                $font-size-base * 0.89;
+$h1-font-size:                7.01vh;
 
 $btn-border-radius:           22px;
+
+$card-border-radius: 5px;
 
 // Include all of Bootstrap
 
@@ -34,19 +33,142 @@ $btn-border-radius:           22px;
 }
 
 .jumbotron {
-  background-image: url("images/bg-intro-desktop.svg");
-  background-blend-mode: normal;
-  background-repeat: no-repeat;
-  background-position: 350% 80%;
-  background-attachment: fixed;
 }
 
 .jumbotron h1 {
-  padding-top: 15rem;
-  padding-bottom: 1.5rem;
+  padding-top: 25.91%;
+  padding-bottom: 3.66%;
+  width: 27.85vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: -1px;
 }
 
 .jumbotron p {
   color: #9597A5;
-  padding-bottom: 2.25;
+  width: 31.04vw;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: -0.28px;
+  padding-bottom: 5.48%;
+}
+
+#about {
+  background-color: #f4f5f7;
+}
+
+#why-easybank {
+  height: 44.97%;
+  background-color: #f4f5f7;
+}
+
+#why-easybank h2 {
+  font-size: 40px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: -0.71px;
+}
+
+#why-easybank p {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: -0.28px;
+  color: #9597a5;
+}
+
+#features {
+  height: 55.02%;
+  background-color: #f4f5f7;
+}
+
+#features h3 {
+  font-size: 24px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.43px;
+  color: #2d314d;
+}
+
+#features p {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.25px;
+  color: #9597a5;
+}
+
+#articles {
+  height: 659px;
+}
+
+#articles h2 {
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: -0.71px;
+  color: #2d314d;
+  margin-top: 12.14%;
+  margin-bottom: 6.07%;
+}
+
+#articles .card-deck {
+  margin-bottom: 12.14%;
+}
+
+#articles .card {
+  height: 395px;
+}
+
+#articles .card-body {
+  height: 55.02%
+}
+
+#articles .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+#articles .text-muted {
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: -0.16px;
+  color: #9597a5;
+}
+
+#articles .card-title {
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.29px;
+  color: #2d314d;
+}
+
+#articles .card-text {
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: -0.2px;
+  color: #9597a5;
 }
