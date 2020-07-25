@@ -21,6 +21,10 @@ $card-border-radius: 5px;
 
 // Custom.scss
 
+body {
+  background-color: #fafafa;
+}
+
 .nav-link {
   font-size: 0.875rem;
 }
@@ -33,10 +37,11 @@ $card-border-radius: 5px;
 }
 
 .jumbotron {
+  background-color: #fafafa;
 }
 
 .jumbotron h1 {
-  padding-top: 25.91%;
+  margin-top: 25.71%;
   padding-bottom: 3.66%;
   width: 27.85vw;
   font-weight: 300;
@@ -60,11 +65,12 @@ $card-border-radius: 5px;
 
 #about {
   background-color: #f4f5f7;
+  padding-top: 5%;
+  margin-top: -150px;
+  padding-bottom: 94px;
 }
 
 #why-easybank {
-  height: 44.97%;
-  background-color: #f4f5f7;
 }
 
 #why-easybank h2 {
@@ -87,8 +93,7 @@ $card-border-radius: 5px;
 }
 
 #features {
-  height: 55.02%;
-  background-color: #f4f5f7;
+  margin-top: 10.43%;
 }
 
 #features h3 {
@@ -113,6 +118,7 @@ $card-border-radius: 5px;
 
 #articles {
   height: 659px;
+  padding-top: 80px;
 }
 
 #articles h2 {
@@ -122,7 +128,6 @@ $card-border-radius: 5px;
   line-height: 1.6;
   letter-spacing: -0.71px;
   color: #2d314d;
-  margin-top: 12.14%;
   margin-bottom: 6.07%;
 }
 

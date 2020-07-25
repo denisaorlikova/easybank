@@ -9909,6 +9909,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  background-color: #fafafa;
+}
+
 .nav-link {
   font-size: 0.875rem;
 }
@@ -9920,8 +9924,12 @@ h3 {
   background-image: linear-gradient(to bottom right, #33D35E, #2AB6D9);
 }
 
+.jumbotron {
+  background-color: #fafafa;
+}
+
 .jumbotron h1 {
-  padding-top: 25.91%;
+  margin-top: 25.71%;
   padding-bottom: 3.66%;
   width: 27.85vw;
   font-weight: 300;
@@ -9945,11 +9953,9 @@ h3 {
 
 #about {
   background-color: #f4f5f7;
-}
-
-#why-easybank {
-  height: 44.97%;
-  background-color: #f4f5f7;
+  padding-top: 5%;
+  margin-top: -150px;
+  padding-bottom: 94px;
 }
 
 #why-easybank h2 {
@@ -9972,8 +9978,7 @@ h3 {
 }
 
 #features {
-  height: 55.02%;
-  background-color: #f4f5f7;
+  margin-top: 10.43%;
 }
 
 #features h3 {
@@ -9998,6 +10003,7 @@ h3 {
 
 #articles {
   height: 659px;
+  padding-top: 80px;
 }
 
 #articles h2 {
@@ -10007,7 +10013,6 @@ h3 {
   line-height: 1.6;
   letter-spacing: -0.71px;
   color: #2d314d;
-  margin-top: 12.14%;
   margin-bottom: 6.07%;
 }
 
