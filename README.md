@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-This project is a [Frontend Mentor](https://www.frontendmentor.io) challenge and is not finished yet :)) - I still need to fix some whitespace and make the web fully mobile friendly.
+This project is a [Frontend Mentor](https://www.frontendmentor.io) challenge and is not finished yet :)) - I still need to fix some whitespace and make the web fully mobile friendly. However, you can check out the current demo [here](https://denisaorlikova.github.io/easybank/).
 
 Technologies I am using for this project:
 
